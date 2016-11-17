@@ -130,14 +130,19 @@ textarea {
 }
 h1 {
     width: 100%;
+    color: #00ffdd;
     text-align: center;
-    font: bold 5vw 'Shrikhand', cursive;
+    font: bold 7vw 'Shrikhand', cursive;
+}
+#gallerybox {
+    text-align: center;
 }
 .catgallery {
-    width: 20%;
+    width: 30%;
     display: inline-block;
-    border: 5px solid #55aa55;
+    border: 5px solid #00ffdd;
     box-sizing: border-box;
+    margin: 1%;
 }
 .text {
     position: relative;
