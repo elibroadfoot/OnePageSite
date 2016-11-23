@@ -84,7 +84,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+#topofpage {
+    display: none;
+    width: 100%;
+    background-color: transparent;
+}
 #navbar {
     width: 100%;
     position: fixed;
@@ -94,9 +98,11 @@ textarea {
     list-style: none;
     background: #000000;
     z-index: 100;
+    box-shadow: 0 0 2px 4px rgba(255,255,255,0.5);
 }
 #navbar ul {
     position: absolute;
+    list-style: none;
     left: 0%;
     top: 50%;
     transform: translate(-15%, -50%);
@@ -104,14 +110,23 @@ textarea {
 #navbar ul li {
     display: inline-block;
     margin-left: 10px;
+}
+#navbar ul li a {
+    text-decoration: none;
+    transition: ease-out .5s;
     color: #00ffdd;
     font: 20px 'Play', sans-serif;
+    padding: 2px;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
 }
-#navbar ul li:hover {
+#navbar ul li a:hover {
     cursor: pointer;
     transition: ease-out .5s;
-    color: #a8a8a8;
-    font-size: 22px;
+    border-left-color: #00ffdd;
+    border-right-color: #00ffdd;
 }
 #catlogo {
     position: fixed;
@@ -124,7 +139,6 @@ textarea {
     position: relative;
     top: 85px;
     width: 100%;
-    height: 200%;
     border: 10px solid black;
     box-sizing: border-box;
 }
@@ -140,18 +154,32 @@ h1 {
 .catgallery {
     width: 30%;
     display: inline-block;
-    border: 5px solid #00ffdd;
+    border: 1vw solid #00ffdd;
     box-sizing: border-box;
     margin: 1%;
 }
-.text {
+#factsection {
     position: relative;
-    top: 80px;
-    font: bold 5vw arial;
+    top: 100px;
     width: 100%;
-    text-align: center;
-    color: #669900;
+    border: 10px solid black;
+    box-sizing: border-box;
 }
+#factbox {
+    text-align: center;
+}
+.factgallery {
+    width: 40vw;
+    height: 40vw;
+    display: inline-block;
+    border: 1vw solid #00ffdd;
+    box-sizing: border-box;
+    margin: 2%;
+    font: 5vw 'Play', sans-serif;
+    text-align: left;
+    padding: 1vw;
+}
+
 
 
 /* ==========================================================================
