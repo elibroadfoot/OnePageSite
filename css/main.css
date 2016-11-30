@@ -135,16 +135,21 @@ textarea {
     height: 55px;
     width: auto;
 }
+#homesection {
+    font: bold 3vw 'Shrikhand', cursive;
+    margin: 10vw;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
 #catsection {
     position: relative;
     top: 85px;
     width: 100%;
-    border: 10px solid black;
-    box-sizing: border-box;
 }
 h1 {
     width: 100%;
-    color: #00ffdd;
+    color: #000000;
     text-align: center;
     font: bold 7vw 'Shrikhand', cursive;
 }
@@ -162,8 +167,6 @@ h1 {
     position: relative;
     top: 100px;
     width: 100%;
-    border: 10px solid black;
-    box-sizing: border-box;
 }
 #factbox {
     text-align: center;
