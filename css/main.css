@@ -84,6 +84,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+section {
+  padding-top: 8vw;
+}
 #topofpage {
     display: none;
     width: 100%;
@@ -137,21 +140,28 @@ textarea {
 }
 #homesection {
     font: bold 3vw 'Shrikhand', cursive;
-    margin: 10vw;
     text-align: center;
     position: relative;
-    top: 50px;
+    top: 0px;
+    background: #;
+    padding-top: 80px;
+}
+#homesection p {
+    margin: 0 10vw 10vw 10vw;
 }
 #catsection {
     position: relative;
-    top: 85px;
+    top: -20vw;
     width: 100%;
 }
 h1 {
-    width: 100%;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
     color: #000000;
     text-align: center;
     font: bold 7vw 'Shrikhand', cursive;
+    border-bottom: 3px double #000000;
 }
 #gallerybox {
     text-align: center;
@@ -165,7 +175,7 @@ h1 {
 }
 #factsection {
     position: relative;
-    top: 100px;
+    top: -30vw;
     width: 100%;
 }
 #factbox {
