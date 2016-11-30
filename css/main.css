@@ -84,14 +84,13 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-section {
-  padding-top: 8vw;
-}
-#topofpage {
-    display: none;
-    width: 100%;
-    background-color: transparent;
-}
+section:before {
+    height: 80px;
+    margin-top: -80px;
+    content: " ";
+    display: block;
+    visibility: hidden;
+ }
 #navbar {
     width: 100%;
     position: fixed;
@@ -143,16 +142,14 @@ section {
     text-align: center;
     position: relative;
     top: 0px;
-    background: #;
-    padding-top: 80px;
-}
-#homesection p {
-    margin: 0 10vw 10vw 10vw;
+    background: #ffffff;
+    margin-top: 80px;
 }
 #catsection {
     position: relative;
-    top: -20vw;
+    top: -10vw;
     width: 100%;
+    background: #cccccc;
 }
 h1 {
     width: 60vw;
@@ -175,16 +172,18 @@ h1 {
 }
 #factsection {
     position: relative;
-    top: -30vw;
+    top: -10vw;
     width: 100%;
+    background: #7a99b8;
 }
 #factbox {
     text-align: center;
 }
 .factgallery {
-    width: 40vw;
-    height: 40vw;
-    display: inline-block;
+    width: 45.5%;
+    height: 45vw;
+    float: right;
+    display: inline;
     border: 1vw solid #00ffdd;
     box-sizing: border-box;
     margin: 2%;
