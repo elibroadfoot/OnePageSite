@@ -84,61 +84,54 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-section:before {
-    height: 80px;
-    margin-top: -80px;
-    content: " ";
-    display: block;
-    visibility: hidden;
- }
-#navbar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 80px;
-    list-style: none;
-    background: #000000;
-    z-index: 100;
-    box-shadow: 0 0 2px 4px rgba(255,255,255,0.5);
+/* color palette
+   #252839 Dark Purple
+   #677077 Neutral Grey
+   #b5b5b7 Light Grey
+   #f2b632 Yellow  */
+
+
+#my-navbar.navbar-default .navbar-brand {
+    color: #252839;
 }
-#navbar ul {
-    position: absolute;
-    list-style: none;
-    left: 0%;
-    top: 50%;
-    transform: translate(-15%, -50%);
+#my-navbar.navbar-default {
+    font-size: 18px;
+    background-color: #b5b5b7;
 }
-#navbar ul li {
-    display: inline-block;
-    margin-left: 10px;
+#my-navbar.navbar-default .navbar-nav>li>a {
+    color: #252839;
+    background-color: #b5b5b7;
+    border-left: 2px solid #b5b5b7;
+    border-right: 2px solid #b5b5b7;
 }
-#navbar ul li a {
-    text-decoration: none;
-    transition: ease-out .5s;
-    color: #00ffdd;
-    font: 20px 'Play', sans-serif;
-    padding: 2px;
-    border-left: 2px solid;
-    border-right: 2px solid;
-    border-left-color: transparent;
-    border-right-color: transparent;
+#my-navbar.navbar-default .navbar-nav>li>a:hover,
+#my-navbar.navbar-default .navbar-nav>li>a:focus {
+    border-left: 2px solid #252839;
+    border-right: 2px solid #252839;
+    background-color: #b5b5b7;
 }
-#navbar ul li a:hover {
-    cursor: pointer;
-    transition: ease-out .5s;
-    border-left-color: #00ffdd;
-    border-right-color: #00ffdd;
+#my-navbar.navbar-default .navbar-nav>.active>a,
+#my-navbar.navbar-default .navbar-nav>.active>a:hover,
+#my-navbar.navbar-default .navbar-nav>.active>a:focus {
+    color: #808080;
+    background-color: #252839;
 }
-#catlogo {
-    position: fixed;
-    top: 15px;
-    right: 15px;
-    height: 55px;
-    width: auto;
+#my-navbar.navbar-default .navbar-toggle {
+    border-color: #252839;
+}
+#my-navbar.navbar-default .navbar-toggle:hover,
+#my-navbar.navbar-default .navbar-toggle:focus {
+    background-color: #252839;
+}
+#my-navbar.navbar-default .navbar-toggle .icon-bar {
+    background-color: #252839;
+}
+#my-navbar.navbar-default .navbar-toggle:hover .icon-bar,
+#my-navbar.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #b5b5b7;
 }
 #homesection {
-    font: bold 3vw 'Shrikhand', cursive;
+    font: bold 40px 'Shrikhand', cursive;
     text-align: center;
     position: relative;
     top: 0px;
@@ -147,7 +140,7 @@ section:before {
 }
 #catsection {
     position: relative;
-    top: -10vw;
+    top: 100vw;
     width: 100%;
     background: #cccccc;
 }
