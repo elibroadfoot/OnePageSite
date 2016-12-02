@@ -141,23 +141,20 @@ h1 {
     margin: 1%;
 }
 #factsection {
-    width: 100%;
     background: #7a99b8;
 }
 #factbox {
     text-align: center;
 }
 .factgallery {
-    width: 45.5%;
-    height: 45vw;
-    float: right;
-    display: inline;
+    width: 100px;
+    height: 100px;
+    margin: auto;
     border: 1vw solid #00ffdd;
     box-sizing: border-box;
-    margin: 2%;
-    font: 5vw 'Play', sans-serif;
+    font: 10px 'Play', sans-serif;
     text-align: left;
-    padding: 1vw;
+    padding: 1%;
 }
 
 
