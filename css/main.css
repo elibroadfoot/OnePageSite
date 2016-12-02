@@ -90,46 +90,22 @@ textarea {
    #b5b5b7 Light Grey
    #f2b632 Yellow  */
 
+/* navbar styling */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #000000;
+  width: 100%;
+}
 
-#my-navbar.navbar-default .navbar-brand {
-    color: #252839;
+nav > ul > li {
+  display: inline-block;
+  padding: 10px;
 }
-#my-navbar.navbar-default {
-    font-size: 18px;
-    background-color: #b5b5b7;
-}
-#my-navbar.navbar-default .navbar-nav>li>a {
-    color: #252839;
-    background-color: #b5b5b7;
-    border-left: 2px solid #b5b5b7;
-    border-right: 2px solid #b5b5b7;
-}
-#my-navbar.navbar-default .navbar-nav>li>a:hover,
-#my-navbar.navbar-default .navbar-nav>li>a:focus {
-    border-left: 2px solid #252839;
-    border-right: 2px solid #252839;
-    background-color: #b5b5b7;
-}
-#my-navbar.navbar-default .navbar-nav>.active>a,
-#my-navbar.navbar-default .navbar-nav>.active>a:hover,
-#my-navbar.navbar-default .navbar-nav>.active>a:focus {
-    color: #808080;
-    background-color: #252839;
-}
-#my-navbar.navbar-default .navbar-toggle {
-    border-color: #252839;
-}
-#my-navbar.navbar-default .navbar-toggle:hover,
-#my-navbar.navbar-default .navbar-toggle:focus {
-    background-color: #252839;
-}
-#my-navbar.navbar-default .navbar-toggle .icon-bar {
-    background-color: #252839;
-}
-#my-navbar.navbar-default .navbar-toggle:hover .icon-bar,
-#my-navbar.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #b5b5b7;
-}
+
+/* content styling */
 #homesection {
     font: bold 40px 'Shrikhand', cursive;
     text-align: center;
