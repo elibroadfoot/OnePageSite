@@ -106,8 +106,11 @@ nav > ul > li {
 }
 
 /* content styling */
+section {
+  padding-top: 30px;
+}
 #homesection {
-    font: bold 40px 'Shrikhand', cursive;
+    font: bold 10px 'Shrikhand', cursive;
     text-align: center;
     position: relative;
     top: 0px;
@@ -115,8 +118,6 @@ nav > ul > li {
     margin-top: 80px;
 }
 #catsection {
-    position: relative;
-    top: 100vw;
     width: 100%;
     background: #cccccc;
 }
@@ -140,8 +141,6 @@ h1 {
     margin: 1%;
 }
 #factsection {
-    position: relative;
-    top: -10vw;
     width: 100%;
     background: #7a99b8;
 }
