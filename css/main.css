@@ -91,76 +91,99 @@ textarea {
    #f2b632 Yellow  */
 
 /* navbar styling */
+
 nav {
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
-    background: #000000;
+    background: #b5b5b7;
     width: 100%;
 }
+nav ul {
+    margin-top: 20px;
 
+}
 nav > ul > li {
     display: inline-block;
     padding: 10px;
+    position: relative;
+    top: 10px;
+    left: -35px;
+}
+#nav a {
+    color: #252839;
+    display: block;
+    font: 16px 'play';
+    padding: 5px 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: ease-out .5s;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+#nav .current a {
+    transition: ease-out .5s;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    color: #ffffff;
 }
 
 /* content styling */
-section {
-    padding-top: 30px;
-}
 
+section {
+    padding-top: 50px;
+}
+.homesection-container {
+    background: #252839;
+
+}
 #homesection {
-    font: bold 10px 'Shrikhand', cursive;
+    font: 16px 'Shrikhand', cursive;
     text-align: center;
-    position: relative;
-    top: 0px;
-    background: #ffffff;
     margin-top: 80px;
+    color: #ffffff;
 }
 
 h1 {
-    width: 60vw;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
-    font: bold 7vw 'Shrikhand', cursive;
-    border-bottom: 3px double #000000;
+    font: bold 40px 'Shrikhand', cursive;
+    border-bottom: 3px double #ffffff;
 }
 
 /** cat section styling **/
+
 .cat-section-container {
-    background: #cccccc;
+    background: #677077;
 }
-
-#gallerybox {
-    text-align: center;
-}
-
 .catgallery {
-    width: 30%;
-    display: inline-block;
-    border: 1vw solid #00ffdd;
-    box-sizing: border-box;
-    margin: 1%;
+    border: 5px solid #252839;
+    width: 90px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /** fact section styling **/
 
 .fact-section-container {
-    background: #7a99b8;
+    background: #f2b632;
 }
 
 .factgallery {
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 1vw solid #00ffdd;
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+    border: 5px solid #677077;
     box-sizing: border-box;
-    font: 10px 'Play', sans-serif;
+    font: 20px 'Play', sans-serif;
     text-align: left;
     padding: 1%;
+    color: #ffffff;
 }
 
 
