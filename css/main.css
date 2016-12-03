@@ -99,6 +99,7 @@ nav {
     z-index: 1;
     background: #b5b5b7;
     width: 100%;
+    box-shadow: 0px 0px 10px 1px #000000;
 }
 nav ul {
     margin-top: 20px;
@@ -161,11 +162,14 @@ h1 {
     background: #677077;
 }
 .catgallery {
-    border: 5px solid #252839;
-    width: 90px;
-    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
+}
+.catgallery img {
+    border: 5px solid #252839;
+    width: 75px;
+    margin-bottom: 30px;
+    border-radius: 100px;
 }
 
 /** fact section styling **/
@@ -175,15 +179,13 @@ h1 {
 }
 
 .factgallery {
-    width: 150px;
-    height: 150px;
+    width: 140px;
     margin: 10px auto;
-    border: 5px solid #677077;
-    box-sizing: border-box;
     font: 20px 'Play', sans-serif;
     text-align: left;
-    padding: 1%;
     color: #ffffff;
+    border-left: 3px solid #ffffff;
+    padding-left: 3px;
 }
 
 
